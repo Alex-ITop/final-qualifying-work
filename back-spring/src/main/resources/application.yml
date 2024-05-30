@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: "@project.name@"
+    description: "@project.description@"
+    version: "@project.version@"
+
+server.port: @server.port@
+
+files:
+  dataFiles: Material
+  coordFiles: coor
+
+
+  materials: Materials.txt
+  parameters: Parameters.txt

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: "diplom"
+    description: "Дипломная работа.Сервис визуализации"
+    version: "0.1"
+
+server.port: 8080
+
+files:
+  dataFiles: Material
+  coordFiles: coor
+  materials: Materials.txt
+  parameters: Parameters.txt
